@@ -1,0 +1,21 @@
+{
+  "name": "gourmet-go-api",
+  "version": "1.0.0",
+  "description": "API do projeto Gourmet Go",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Luis Gustavo Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
